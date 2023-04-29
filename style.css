@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    height: 4000px;
+
+    background: linear-gradient(178.38deg, #242424 1.38%, #FFFFFF 77.19%);
+}
+
+
+
+li,a,button,span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:15px;
+    color: #636363;
+    text-decoration: none;
+}
+span{
+    color: blue;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.logo{
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.nav_links{
+    list-style: none;
+    display: flex;
+}
+
+
+.nav_links a{
+    width: max-content;
+    transition: all 0.3s ease 0s;
+    margin-top: 30px;
+    
+
+}
+.links{
+    width: max-content;
+    margin-top: 50px;
+    margin-left: 50%;
+}
+
+.nav_links a:hover{
+    color: #5200FF;
+}
+
+.action_btn button{
+    margin-left: 25%;
+    margin-top: 5%;
+    height: 3rem;
+    width: 12rem;
+    padding: 4px 15px;
+    background: #5200FF;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    color: #FFFFFF;
+}
+
+.action_btn button:hover{
+    background-color: #FFFFFF;
+    color: #5200FF;
+}
+.rectangle{
+    margin-top: 2%;
+    width: 1326px;
+    height: 727px;
+    background: linear-gradient(115.94deg, #EBEBEB 35.05%, #EBEBEB 35.05%, #7A7A7A 100%);
+    border-radius: 31px;
+    
+}
+.entire{
+    display: grid;
+    place-items: center;
+}
+.logo1{
+    margin-top: 4%;
+    margin-left: 4%;
+    width: 250px;
+}
+h1{
+    line-height: 102%;
+    width: 1000px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:90px;
+    letter-spacing: -0.05em;
+    margin-left: 4%;
+}
+.text_color{
+    font-size: 80px;
+}
+.text_color1{
+    font-size: 80px;
+    color: aqua;
+}
+.small_text{
+    margin-top:2%;
+    width: 54%;
+    margin-left: 12%;
+   
+}
+.small_text h4{
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size:15px;
+}
+.est h1{
+    font-size: 20px;
+    margin-top: -3%;
+    margin-left: 85%;
+    font-weight: 100;
+    color: #d1d1d1;
+    
+}
+.action_btn1 button{
+    border: none;
+    margin-left: 11.5%;
+    margin-top: 3%;
+    height: 3rem;
+    width: 12rem;
+    padding: 4px 15px;
+    background: #5200FF;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    color: #FFFFFF;
+}
+
+.action_btn1 button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.action_btn2 button{
+    border: none;
+    margin-left: 11.5%;
+    margin-top: 3%;
+    height: 3rem;
+    width: 12rem;
+    padding: 4px 15px;
+    background: #5200FF;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    color: #FFFFFF;
+}
+
+.action_btn2 button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.language{
+    margin-left: -63%;
+    width: 20%;
+    margin-top: -05%;
+}
+.language h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:25px;
+}
+
+.language span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:25px;
+}
+.rectangle1{
+    margin-top: 1%;
+    border-radius: 20px;
+    width: 1326px;
+    height: 79px;
+    margin-left: 4%;
+    background-color: #5200FF;
+}
+.action_btn2 button{
+    font-size: 38px;
+    border: none;
+    margin-top: 1%;
+    margin-left: 4%;
+    width: 1326px;
+    height: 80px;
+}
+.action_btn2 button span{
+    font-size: 38px;
+    color: #27007c;
+}
+.shoppe{
+    margin-top: 10%;
+}
+.shoppe .rectangle1{
+    background-color: #000000;
+    color:#FFFFFF;
+}
+.shoppe h1{
+    margin-left: 35%;
+    font-size: 50px;
+}
+.wrapper {
+    display: grid;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-right: 3%;
+    grid-template-columns: 100px 100px;
+    column-gap: 40%;
+    row-gap: 3%;
+  }
+  
+  .box {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 200px;
+   
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 150%;
+  }
+ 
+  .image_grid button{
+      margin-top: 3%;
+      margin-left: 10%;
+      margin-right: 5%;
+      width: 500px;
+      height: 150px;
+      border: none;
+      border-radius: 18px; 
+      
+  }
+  .app{
+      margin-left: -4%;
+      width: 540px;
+      height: 150px;
+      cursor: pointer;
+      
+  }
+  .lang-btn{
+      position: relative;
+    z-index: 1;
+  }
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #a1c4fd;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1))
+    }
+    
+    .bg-indigo {
+    background-color: #4835d4;
+    }
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-indigo {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+    }
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+    }
+
+    .check{
+        margin-top: 10%;
+    }
+    .check .rectangle1{
+        background-color: #000000;
+        color:#FFFFFF;
+    }
+    .check h1{
+        margin-top: 5px;
+        margin-left: 33%;
+        font-size: 40px;
+    }
